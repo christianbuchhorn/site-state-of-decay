@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+}
+
+
+
+.box {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(26, 26, 26, 0.215);
+  max-width: 100%;
+  min-width: 50px;
+}
+
+.logo {
+  background: rgb(194, 194, 194);
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  margin: 18px;
+}
+
+.canto {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  height: 100%;
+  padding: 10px 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 2px;
+  padding-left: 0px;
+}
+
+.casa {
+  background-color: rgb(194, 194, 194);
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 8px transparent #fff;
+  margin: 4px;
+}
+
+.casa:hover {
+  background-color: orangered;
+  transition: 0.5s;
+}
+
+.detail {
+  background-color: rgb(194, 194, 194);
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 8px transparent #fff;
+  margin: 4px;
+}
+
+.detail:hover {
+  background-color: orangered;
+  transition: 0.5s;
+}
+
+
+.enter:hover {
+  background-color: orangered;
+  transition: 0.5s;
+
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+/* caixa imagem e texto */
+#Sobre {
+  color: rgb(97, 96, 96);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 18px;
+}
+
+p {
+  align-content: center;
+  background: rgba(255, 255, 255, 0.042);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.enter {
+  background-color: rgba(61, 61, 61, 0.616);
+  -webkit-text-stroke: 0.2px solid rgb(0, 0, 0);
+  border: 1px solid rgb(2, 2, 2);
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 8px transparent #fff;
+  flex-direction: column;
+}
+/* borda texto */
+#Sobre p {
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 5% 5%;
+  min-height: 100%;
+  min-width: 50%;
+  text-align: center;
+  z-index: -1;
+}
+
+/* Imagem zumbis */
+.Zombies {
+  padding: 5% 5%;
+  max-width: 100%;
+  min-width: 20%;
+  z-index: -1;
+}
+/* Video de fundo */
+video {
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  filter: brightness(0.4);
+  opacity: 0.9;
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+/* video local state pagina dois para abrir com JS*/
+
+.container {
+
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  padding: 10% 25%;
+  z-index: 1;
+  width: 0px;
+ 
+  
+
+
+}
+
+.organized{
+display: flex;
+flex-direction: column;
+align-items: end;
+
+
+
+}
+.x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 32px;
+  border-radius: 5px;
+  margin: 8px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #fff;}
