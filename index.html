@@ -20,7 +20,7 @@
           <a> Home</a>
         </div>
 
-        <div class="detail">
+        <div class="casa">
           <a href="">Detalhes</a>
         </div>
 
@@ -30,13 +30,15 @@
 <!-- fechamento da barra superior-->
 
 <!-- video de trás -->
+<div class="fundo">
   <video autoplay muted loop src="Image site/State of Decay - Official Trailer (online-video-cutter.com).mp4" id="myVideo" style="position: fixed; top: 0; left: 0;">
   
   </video>
+</div>
 <!-- fim do video de trás-->
 
 <!-- Texto -->
-    <div id="Sobre">
+<div id="Sobre">
     <div> 
       <p>
         O fim está perto. Depois do maior ataque zombie de sempre, a vida tal
@@ -45,37 +47,45 @@
         acção na terceira pessoa num mundo aberto e dinâmico.
      </p>
          
-     <a href=""  class="enter">TRAILER</a>
+     <button  onclick="openvideo()" class="enter">TRAILER</button>
 
     </div>
     <!-- fim do texto -->
 
 <!-- imagem dos zumbis -->
-<img src="Image site/zumbis.png" alt="zombie" class="Zombies" /> </div>
+    <img src="Image site/zumbis.png" alt="zombie" class="Zombies" /> 
+</div>
 <!-- fim da imagem dos zumbis -->
   
- <div  class="container"> 
-  
-  
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------ -->
+
+ <div  class="container" > 
+
 <!-- começo organized --><div class="organized">  
 
 
-<!-- botão X --> <div class="x"> <a href="#" title="Exit"> X </a> </div><!-- FIM do botão X --> 
+<!-- botão X --> 
+<div class="esconder"  id="switch" >
+  <div class="x " > 
+    <button  onclick="closevideo()" title="Exit"> X </button> 
+  </div> 
 
-
-                  
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/fhj5phhsqC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
+     
+<!-- Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fhj5phhsqC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>    
 
 
 </div> <!-- fim organized -->
     
-
+<!------------------------------------------------------------------------------------------------------------>
   
 </div>  <!-- fim container -->  
 
 
     
     
-<script src="links.js"></script>    
+<script src="script.js"></script>    
 </html>
